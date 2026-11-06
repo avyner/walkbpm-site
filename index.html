@@ -4,39 +4,56 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WalkBPM Support</title>
-  <style>
-    :root { --bg: #ffffff; --text: #16181d; --muted: #555b66; --accent: #0a7d55; }
-    @media (prefers-color-scheme: dark) {
-      :root { --bg: #0d0f12; --text: #f1f3f5; --muted: #a3a9b3; --accent: #5ef2a8; }
-    }
-    body { margin: 0; background: var(--bg); color: var(--text);
-      font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-    main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
-    h1 { font-size: 32px; line-height: 1.2; margin: 0 0 4px; }
-    .date { color: var(--muted); font-size: 14px; margin: 0 0 32px; }
-    h2 { font-size: 19px; margin: 28px 0 6px; }
-    p { margin: 0; color: var(--muted); }
-    ul { margin: 0; padding-left: 20px; color: var(--muted); }
-    li { margin: 4px 0; }
-    a { color: var(--accent); }
-  </style>
+  <meta name="description" content="Help with WalkBPM, the app that keeps your walks on the beat.">
+  <meta name="theme-color" content="#121315">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <h1>WalkBPM Support</h1>
-    <p class="date">Walk and run on the beat</p>
-    <h2>Get in touch</h2>
-    <p>Questions, bugs or ideas? Write to <a href="mailto:hello@walkbpm.app">hello@walkbpm.app</a> and you'll hear back soon.</p>
-    <h2>WalkBPM+</h2>
-    <ul>
-      <li>To cancel or change your plan, open Settings on your iPhone, tap your name, then Subscriptions.</li>
-      <li>Got a new iPhone? Open WalkBPM+ in the app's Settings and tap Restore Purchases.</li>
-      <li>Have an offer code? Tap Redeem code on the WalkBPM+ page.</li>
-    </ul>
-    <h2>Apple Health</h2>
-    <p>If walks aren't appearing as workouts, open the Health app, tap your profile picture, then Apps (under Privacy), then WalkBPM, and turn on every category.</p>
-    <h2>Your data</h2>
-    <p>Delete account, in Account details, removes your walks, profile and account. Read the <a href="privacy.html">privacy policy</a> for the full picture.</p>
-  </main>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="./"><img class="pixel" src="icon.png" alt="">WalkBPM</a>
+      <nav class="nav" aria-label="Pages">
+        <a href="./" aria-current="page">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <img class="icon pixel" src="icon.png" alt="The WalkBPM app icon">
+        <div class="eyebrow">Walk on the beat</div>
+        <h1>WalkBPM Support</h1>
+        <p class="lede">A beat at your pace, a coach in your ear and music made live to your steps. Here's how to get help.</p>
+        <a class="pill" href="mailto:hello@walkbpm.app">Email us</a>
+      </section>
+      <div class="cards">
+      <article class="card">
+        <h2><span class="dot" aria-hidden="true"></span>Get in touch</h2>
+        <p>Questions, bugs or ideas? Write to <a href="mailto:hello@walkbpm.app">hello@walkbpm.app</a> and you'll hear back soon.</p>
+      </article>
+      <article class="card">
+        <h2><span class="dot" aria-hidden="true"></span>WalkBPM+</h2>
+        <ul>
+          <li>To cancel or change your plan, open Settings on your iPhone, tap your name, then Subscriptions.</li>
+          <li>Got a new iPhone? Open WalkBPM+ in the app's Settings and tap Restore Purchases.</li>
+          <li>Have an offer code? Tap Redeem code on the WalkBPM+ page.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2><span class="dot" aria-hidden="true"></span>Apple Health</h2>
+        <p>If walks aren't appearing as workouts, open the Health app, tap your profile picture, then Apps (under Privacy), then WalkBPM, and turn on every category.</p>
+      </article>
+      <article class="card">
+        <h2><span class="dot" aria-hidden="true"></span>Your data</h2>
+        <p>Delete account, in Account details, removes your walks, profile and account. Read the <a href="privacy.html">privacy policy</a> for the full picture.</p>
+      </article>
+      </div>
+    </main>
+    <footer class="foot">
+      <span>© 2026 WalkBPM</span>
+      <a href="mailto:hello@walkbpm.app">hello@walkbpm.app</a>
+    </footer>
+  </div>
 </body>
 </html>
